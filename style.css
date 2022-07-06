@@ -1,0 +1,55 @@
+/*NAVIGATION BAR*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 2px rgba(30, 30, 30, 5%);
+}
+
+.text-logo {
+  align-self: center;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 25px;
+  color: #FFE554;
+  font-size: 45px;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+
+.navbar .lists {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 25px;
+  font-family: 'Raleway', sans-serif;
+  color: #10048F;
+  font-weight: 900;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #4132DB;
+  text-decoration: underline 2px #4132DB;
+}
+
+
+/*HOME SCREEN*/
+.body-pages {
+  background-color: #F9F9F9;
+  margin: 0px;   /* removes default margin */
+}
+
+/*The Media Query section is below.
+I only did one, but you can do many*/
+
+@media screen and (max-width: 1000px) {
+  .navbar .lists {
+    display: none;
+  }
+}
